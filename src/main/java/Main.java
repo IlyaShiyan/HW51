@@ -15,12 +15,12 @@ public class Main {
         System.out.println(priorityQueueOfNumbers);
         Double sum = 0.0;
 
-        Iterator <Integer> iterator = priorityQueueOfNumbers.iterator();
-            while (iterator.hasNext()){
-           sum+=iterator.next();
+        Iterator<Integer> iterator = priorityQueueOfNumbers.iterator();
+        while (iterator.hasNext()) {
+            sum += iterator.next();
         }
 
         System.out.println(priorityQueueOfNumbers.size());
-        System.out.println(sum/ priorityQueueOfNumbers.size());
+        System.out.println(sum / priorityQueueOfNumbers.size());
     }
 }
